@@ -2,7 +2,7 @@
 **Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring**
 
 **Corresponding author:** chencheng_sjtu@sjtu.edu.cn  
-
+**Attention:** The MAIBO dataset will be formally released upon publication of the associated research article.
 ---
 
 ## Data Access
