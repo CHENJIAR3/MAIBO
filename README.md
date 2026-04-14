@@ -21,7 +21,7 @@ To use this dataset, applicants are required to:
 
 Before using the MAIBO dataset, applicants agree to the following terms:
 
-- The dataset may only be used for the **research purposes** described in the approved request.
+- The dataset shall be used solely for non-commercial research purposes and must not be used for any commercial or clinical decision-making applications.
 - No attempts shall be made to **identify or re-identify participants**, nor to contact any individuals represented in the dataset.
 - Appropriate **data security measures** must be implemented, including controlled access and secure storage.
 - Results derived from the dataset may be published, provided that **no personally identifiable information (PII)** is disclosed.
