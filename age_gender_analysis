@@ -1,0 +1,69 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from tqdm import tqdm
+import os
+import glob
+def subject_demographics_distribution(file_paths):
+    """
+    统计年龄、BMI、性别等信息
+    返回 pandas DataFrame
+    """
+    records = []
+    for path in tqdm(file_paths):
+        df = pd.read_pickle(path)
+        s = path.split("/")[-1].split(".")[0]
+        # 假设 df 中包含 'age', 'bmi', 'gender' 列
+        age = df['age'].iloc[0] if 'age' in df.columns else np.nan
+        bmi = df['bmi'].iloc[0] if 'bmi' in df.columns else np.nan
+        gender = df['gender'].iloc[0] if 'gender' in df.columns else np.nan
+        records.append({
+            "subject": s,
+            "age": age,
+            "bmi": bmi,
+            "gender": gender
+        })
+    df_demo = pd.DataFrame(records)
+    # 可以输出描述性统计
+    # desc = df_demo.describe(include='all')
+    # 按性别分组描述性统计
+    stats_by_gender = df_demo.groupby('gender').agg(
+        count=('age','count'),
+        age_mean=('age','mean'),
+        age_std=('age','std'),
+        age_min=('age','min'),
+        age_25pct=('age', lambda x: np.percentile(x,25)),
+        age_50pct=('age', 'median'),
+        age_75pct=('age', lambda x: np.percentile(x,75)),
+        age_max=('age','max'),
+        bmi_mean=('bmi','mean'),
+        bmi_std=('bmi','std'),
+        bmi_min=('bmi','min'),
+        bmi_25pct=('bmi', lambda x: np.percentile(x,25)),
+        bmi_50pct=('bmi', 'median'),
+        bmi_75pct=('bmi', lambda x: np.percentile(x,75)),
+        bmi_max=('bmi','max')
+    ).reset_index()
+    return df_demo, stats_by_gender
+# -------------------------
+# 总体描述性统计（不分性别）
+# -------------------------
+def overall_demo_statistics(df_demo):
+    stats_overall = pd.DataFrame({
+        "count": [df_demo['age'].count()],
+        "age_mean": [df_demo['age'].mean()],
+        "age_std": [df_demo['age'].std()],
+        "age_min": [df_demo['age'].min()],
+        "age_25pct": [np.percentile(df_demo['age'], 25)],
+        "age_50pct": [df_demo['age'].median()],
+        "age_75pct": [np.percentile(df_demo['age'], 75)],
+        "age_max": [df_demo['age'].max()],
+        "bmi_mean": [df_demo['bmi'].mean()],
+        "bmi_std": [df_demo['bmi'].std()],
+        "bmi_min": [df_demo['bmi'].min()],
+        "bmi_25pct": [np.percentile(df_demo['bmi'], 25)],
+        "bmi_50pct": [df_demo['bmi'].median()],
+        "bmi_75pct": [np.percentile(df_demo['bmi'], 75)],
+        "bmi_max": [df_demo['bmi'].max()]
+    })
+    return stats_overall
