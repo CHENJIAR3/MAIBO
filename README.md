@@ -35,4 +35,9 @@ Before using the MAIBO dataset, applicants agree to the following terms:
 ## Agreement Requirement
 
 The **Principal Investigator (PI)** or responsible applicant must sign the Data Use Agreement, confirming that they have read, understood, and accepted all terms.
-.
+
+## License
+
+The source code in this repository is released under the MIT License.
+
+The MAIBO dataset is released separately on Zenodo under the Creative Commons Attribution 4.0 International (CC BY 4.0) License. Please cite the dataset and the accompanying paper when using the data.
