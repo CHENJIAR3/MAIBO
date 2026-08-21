@@ -1,43 +1,113 @@
-# MAIBO  
+# MAIBO
 **Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring**
 
-**Corresponding author:** chencheng_sjtu@sjtu.edu.cn  
+**Corresponding author:** chencheng_sjtu@sjtu.edu.cn
 
 ---
-**Attention:** The MAIBO dataset will be formally released upon publication of the associated research article.
+
+## Overview
+
+MAIBO (Multi-posture Asymmetry-aware Intelligent Bilateral Observation) is a large-scale bilateral wearable dataset developed for cardiovascular monitoring under multiple postural conditions.
+
+The dataset provides synchronized photoplethysmography (PPG) signals collected from both hands using wearable rings, together with corresponding physiological and demographic information. MAIBO is designed to support research on bilateral cardiovascular monitoring, posture-aware physiological signal analysis, blood pressure estimation, and related wearable sensing applications.
+
+The dataset and its associated research paper are publicly available.
+
+---
 
 ## Data Access
 
-The MAIBO dataset is publicly available for research purposes under a **Data Use Agreement (DUA)**.
+The MAIBO dataset is publicly available for research use through **Zenodo**:
 
-To use this dataset, applicants are required to:
+**Dataset:**  
+[MAIBO: Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring](https://zenodo.org/records/19440421)
 
-1. Complete and sign the MAIBO Data Use Agreement (DUA);
-2. Send the **signed PDF** to the corresponding author via email;
+The dataset is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
----
-
-## Data Use Agreement (Summary)
-
-Before using the MAIBO dataset, applicants agree to the following terms:
-
-- The dataset shall be used solely for non-commercial research purposes, as guided by the relevant ethics committee, and must not be used for any commercial or clinical decision-making applications.
-- No attempts shall be made to **identify or re-identify participants**, nor to contact any individuals represented in the dataset.
-- Appropriate **data security measures** must be implemented, including controlled access and secure storage.
-- Results derived from the dataset may be published, provided that **no personally identifiable information (PII)** is disclosed.
-- All publications must **properly cite** the MAIBO dataset and its associated reference paper.
-- The MAIBO authors are **not obligated** to provide technical support, additional annotations, or extended documentation beyond what is publicly released.
-- The MAIBO authors and affiliated institutions **assume no liability** for any damages arising from the use of the dataset.
-- The dataset is provided **“as is”**, without warranty of any kind, including but not limited to accuracy, completeness, or fitness for a particular purpose.
+Users may download and use the dataset in accordance with the terms of the CC BY 4.0 license and the data-use requirements described below.
 
 ---
 
-## Agreement Requirement
+## Data Use Requirements
 
-The **Principal Investigator (PI)** or responsible applicant must sign the Data Use Agreement, confirming that they have read, understood, and accepted all terms.
+By accessing and using the MAIBO dataset, users agree to the following conditions:
+
+- The dataset should be used in accordance with applicable laws, regulations, and institutional requirements.
+- Users must **not attempt to identify or re-identify any participant** represented in the dataset.
+- Users must **not contact or attempt to contact individual participants** represented in the dataset.
+- Appropriate **data security and access-control measures** should be implemented when storing and processing the dataset.
+- Any publications, presentations, or other scholarly outputs based on the MAIBO dataset must **properly cite both the dataset and its associated research paper**.
+- Users must not disclose any personally identifiable information (PII) or attempt to derive such information from the dataset.
+- The dataset should not be used for **clinical decision-making or direct clinical deployment** without appropriate independent validation, regulatory approval, and other necessary authorization.
+- The MAIBO authors are not obligated to provide technical support, additional annotations, or extended documentation beyond the materials publicly released with the dataset.
+- The dataset is provided **“as is”**, without warranties of any kind, including but not limited to accuracy, completeness, or fitness for a particular purpose.
+
+---
 
 ## License
 
-The source code in this repository is released under the MIT License.
+The **MAIBO dataset** is released on Zenodo under the:
 
-The MAIBO dataset is released separately on Zenodo under the Creative Commons Attribution 4.0 International (CC BY 4.0) License. Please cite the dataset and the accompanying paper when using the data.
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+The **source code** in this repository is released under the **MIT License**.
+
+Please refer to the respective license terms before using or redistributing the dataset or source code.
+
+---
+
+## Citation
+
+If you use the MAIBO dataset in your research, please cite **both the dataset and the associated research paper**.
+
+@article{chen2026multi,
+  title={A Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring},
+  author={Chen, Jiarong and Li, Rong and Liu, Bin and Wang, Min and Shi, Wenqi and Gao, Ruize and Qiu, Qingyan and Tu, Ronghua and Wang, Yunpeng and Wang, Guoxing and others},
+  journal={Scientific Data},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
+}
+
+@dataset{chen_2026_19440421,
+  author       = {Chen, Jiarong and
+                  Li, Rong and
+                  Liu, Bin and
+                  Wang, Min and
+                  Shi, Wenqi and
+                  Gao, Ruize and
+                  Qiu, Qingyan and
+                  Tu, Ronghua and
+                  Wang, Yunpeng and
+                  Wang, Guoxing and
+                  Dai, Min and
+                  Chen, Cheng},
+  title        = {MAIBO: Multi-posture Asymmetry-aware Intelligent
+                   Bilateral Observation Dataset for Cardiovascular
+                   Monitoring
+                  },
+  month        = apr,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {V1},
+  doi          = {10.5281/zenodo.19440421},
+  url          = {https://doi.org/10.5281/zenodo.19440421},
+}
+
+
+---
+
+## Contact
+
+For questions regarding the dataset, please contact:
+
+**Corresponding author:**  
+chencheng_sjtu@sjtu.edu.cn
+
+---
+
+## Acknowledgement
+
+We thank all participants and contributors involved in the development of the MAIBO dataset.
+
+If you use MAIBO in your research, we would appreciate citing the dataset and the associated research paper.
+Contact me：jiarong.chen@sjtu.edu.cn
