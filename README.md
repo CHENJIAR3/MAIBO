@@ -23,7 +23,7 @@ The MAIBO dataset is publicly available for research use through **Zenodo**:
 
 The dataset is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-Users may download and use the dataset in accordance with the terms of the CC BY 4.0 license and the data-use requirements described below.
+Users can download and use the dataset in accordance with the terms of the CC BY 4.0 license and the data-use requirements described below.
 
 ---
 
@@ -61,7 +61,8 @@ If you use the MAIBO dataset in your research, please cite **both the dataset an
 ```bibtex
 @article{chen2026multi,
   title={A Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring},
-  author={Chen, Jiarong and Li, Rong and Liu, Bin and Wang, Min and Shi, Wenqi and Gao, Ruize and Qiu, Qingyan and Tu, Ronghua and Wang, Yunpeng and Wang, Guoxing and others},
+  author={Chen, Jiarong and Li, Rong and Liu, Bin and Wang, Min and Shi, Wenqi and Gao, Ruize and Qiu, Qingyan and Tu, Ronghua and Wang, Yunpeng and Wang, Guoxing and Dai, Min and
+                  Chen, Cheng}},
   journal={Scientific Data},
   year={2026},
   doi={10.1038/s41597-026-07915-8},
@@ -109,5 +110,4 @@ chencheng_sjtu@sjtu.edu.cn
 
 We thank all participants and contributors involved in the development of the MAIBO dataset.
 
-If you use MAIBO in your research, we would appreciate citing the dataset and the associated research paper.
-Contact me：jiarong.chen@sjtu.edu.cn
+For questions regarding the dataset, please contact: jiarong.chen@sjtu.edu.cn
