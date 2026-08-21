@@ -67,7 +67,7 @@ If you use the MAIBO dataset in your research, please cite **both the dataset an
   doi={10.1038/s41597-026-07915-8},
   publisher={Nature Publishing Group UK London}
 }
-```
+
 @dataset{chen_2026_19440421,
   author       = {Chen, Jiarong and
                   Li, Rong and
@@ -92,7 +92,7 @@ If you use the MAIBO dataset in your research, please cite **both the dataset an
   doi          = {10.5281/zenodo.19440421},
   url          = {https://doi.org/10.5281/zenodo.19440421},
 }
-
+```
 
 ---
 
