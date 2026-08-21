@@ -12,7 +12,7 @@ MAIBO (Multi-posture Asymmetry-aware Intelligent Bilateral Observation) is a lar
 The dataset provides synchronized photoplethysmography (PPG) signals collected from both hands using wearable rings, together with corresponding physiological and demographic information. MAIBO is designed to support research on bilateral cardiovascular monitoring, posture-aware physiological signal analysis, blood pressure estimation, and related wearable sensing applications.
 
 The dataset and its associated research paper are publicly available.
-
+Research Paper: [A Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring](https://www.nature.com/articles/s41597-026-07915-8)
 ---
 
 ## Data Access
