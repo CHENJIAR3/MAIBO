@@ -58,12 +58,13 @@ Please refer to the respective license terms before using or redistributing the 
 ## Citation
 
 If you use the MAIBO dataset in your research, please cite **both the dataset and the associated research paper**.
-
+```bibtex
 @article{chen2026multi,
   title={A Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring},
   author={Chen, Jiarong and Li, Rong and Liu, Bin and Wang, Min and Shi, Wenqi and Gao, Ruize and Qiu, Qingyan and Tu, Ronghua and Wang, Yunpeng and Wang, Guoxing and others},
   journal={Scientific Data},
   year={2026},
+  doi={10.1038/s41597-026-07915-8},
   publisher={Nature Publishing Group UK London}
 }
 
