@@ -2,7 +2,8 @@
 **[A Multi-posture Asymmetry-aware Intelligent Bilateral Observation Dataset for Cardiovascular Monitoring](https://www.nature.com/articles/s41597-026-07915-8)**
 
 **Corresponding author:** chencheng_sjtu@sjtu.edu.cn
-**Journal: Scientific Data
+
+**Journal:** Scientific Data
 ---
 
 ## Overview
