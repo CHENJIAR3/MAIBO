@@ -47,7 +47,7 @@ By accessing and using the MAIBO dataset, users agree to the following condition
 
 The **MAIBO dataset** is released on Zenodo under the:
 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+**Creative Commons Attribution Non Commercial 4.0 International** license.
 
 The **source code** in this repository is released under the **MIT License**.
 
